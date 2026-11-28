@@ -27,7 +27,7 @@ spec:
             limits:
               memory: "128Mi"
               cpu: "500m"
-          image: ghcr.io/seunggi1008/guestbook:9a798b7
+          image: ghcr.io/seunggi1008/guestbook:e6bbbe6
           ports:
             - containerPort: 5000
           livenessProbe:
